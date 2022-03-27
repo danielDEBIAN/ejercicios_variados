@@ -1,3 +1,8 @@
+'''
+Revisa si los parentesis de una cadena estan cerrados
+Ejemplo: ()[]{} es valida, ()[ no es valida
+'''
+
 def isValid(s: str) -> bool:
     abiertos = 0
     for c in s:
